@@ -1,4 +1,4 @@
-# Cuddly-Duddly-Fuddly-Wuddly-Riddle-Solution
+# Cuddly Duddly Fuddly Wuddly Riddle Solution
 A possible recursive general input solution for the homonym YouTube riddle
 
 ## Basis step
