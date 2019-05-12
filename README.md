@@ -4,12 +4,12 @@ A possible recursive general input solution for the homonym YouTube riddle
 ## Basis step
 The algorithm ends when the number of eggs is 0 in two of the stacks and 1 in the third one. <br>
 Both (0,0,1), (0,1,0) and (1,0,0) are valid output solutions.
-If the remaining egg is in the red stack, the solution is considered valid, false otherwise. <br>
+If the remaining egg is in the blue stack, the solution is considered valid, false otherwise. <br>
 
 ## Error case
-In case more than 1 egg is remaining in the stack, the configuration leads to an error and a not valid solution is returned.
+In the case more than 1 egg is remaining in the stack, the configuration leads to an error and a not valid solution is returned.
 An error is actually triggered when the number of the eggs in a stack is lower than 0. <br>
-For instance (-1,0,0), (2,0,-1) or (1,1,-2) will lead to an error and then a not valid solution.<br>
+For instance (-1,0,0), (2,0,-1) and (1,1,-2) will lead to an error and, then, a not valid solution.<br>
 
 ## Recursive step
 The idea is to reduce by one the number of the two stacks which contain more eggs and increase the other stack by 1.<br>
